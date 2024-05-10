@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Lucy Wilcox</title>
+
+        <!-- Fonts; accessed from https://fonts.google.com/selection/embed -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Marck+Script&family=Nova+Cut&display=swap" rel="stylesheet">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!-- My CSS -->
+        <link href="styles.css" rel="stylesheet">
+
+        <style>
+            .center-row {
+                display: flex;
+                justify-content: center;
+            }
+            body
+            {
+                background-image: url("https://images.pexels.com/photos/6789778/pexels-photo-6789778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+        </style>
+
+        <!-- My JS-->
+        <script src="index.js"></script>
+
+    </head>
+
+    <body> <!-- Boostrap from https://getbootstrap.com/docs/5.3/layout/grid/#example -->
+        <div class="container-fluid">
+            <div class="row center-row">
+                <!-- Navigation bar-->
+                <div class="col-md-3">
+                    <nav class="navbar navbar-vertical">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="auditions.html">Auditions</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="calendar.html">Calendar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- Main content -->
+                <div class="row center-row">
+                    <div class="col-md-9">
+                        <header class="text-center">
+                            <h1>Hilights Acapella</h1>
+                        </header>
+
+                        <div class="content text-center"> <!-- Centering content -->
+                            <p>
+                                2023-2024
+                            </p>
+                            <p>
+                                The year is
+                            </p>
+                            <!-- Center Image -->
+                        </div>
+                        <div class="home-card">
+                            <div class="container d-flex justify-content-center align-items-center" style="height: 50vh;">
+                                <div class="card text-center" style="width: 18rem; background: linear-gradient(to bottom, #BCE0F2, #808080);">
+                                  <img src="media/h1.jpg" alt="MainImg" class="card-img-top">
+                                  <div class="card-body">
+                                    <h5 class="card-title text-primary">Featured: Acapelooza '24</h5>
+                                    <p class="card-text">Song: Coming Home by Leon Bridges</p>
+                                    <p class="card-text">Soloist: Elizabeth Chambers</p>
+                                    <a href="https://vimeo.com/938186907?share=copy" class="btn btn-primary" style="font-size: 12px;">Full Acapelooza Video | Password: acapella!</a>
+                                  </div>
+                                  </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>

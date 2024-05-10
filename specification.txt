@@ -1,0 +1,34 @@
+List the 10 HTML tags and 5 CSS properties you’ve used:
+Html tags used:
+<a>
+<nav>
+<ul>
+<li>
+<button>
+<h1>
+<p>
+<img>
+<header>
+<footer>
+<span>
+<i>
+<br>
+<container>
+<row>
+<card>
+<h3>
+
+5 examples of CSS Properties used:
+
+text-align
+font-size
+font-family
+padding
+transition
+
+Brief (one-sentence) description of how you chose to use JavaScript and Bootstrap:
+Admittedly I completely forgot to work on it the evening I planned to finish it up and remembered last minute
+and only had an hour ish to get some things fixed so I did not implement JS in a comprehensive way nor did I
+utilize bootstrap correctly to ensure my nav bar is responsive for mobile devices and the site is missing info
+in general so I understand that this will take points off as I couldn’t get that done before the due date but
+I will definitely go back and fix those things after submitted.
